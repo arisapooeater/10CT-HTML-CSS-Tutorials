@@ -1,0 +1,53 @@
+html{
+    background-color:darkorange;
+
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-image: linear-gradient(180deg, #00ff22, #2600ff, #ff0000);
+  background-repeat: no-repeat;
+  text-align: center;
+
+}
+
+h3{
+    /* 1. Define the gradient as a background image */
+  background: linear-gradient(135deg, #ff0000, #2f18ff);
+  
+  /* 2. Clip the background so it only fills the text shape */
+  background-clip: text;
+  -webkit-background-clip: text;
+  
+  /* 3. Make the default text color transparent to see the gradient underneath */
+  color: transparent;
+}
+
+h4{
+    text-align: left;
+}
+
+h2{
+    color:#ff0000;
+    font-family:cursive;
+    text-align:center;
+}
+
+img{
+    border: 10px solid #ffee00
+}
+
+h1{
+    font-family:cursive;
+    text-align:center;
+  /* 1. Define the gradient as a background image */
+  background: linear-gradient(to right, #f0ff9b, #4b0000);
+  
+  /* 2. Clip the background so it only fills the text shape */
+  background-clip: text;
+  -webkit-background-clip: text;
+  
+  /* 3. Make the default text color transparent to see the gradient underneath */
+  color: transparent;
+}
