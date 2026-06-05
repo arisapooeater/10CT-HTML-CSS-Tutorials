@@ -35,7 +35,9 @@ h2{
 }
 
 img{
-    border: 10px solid #ffee00
+    border: 10px solid #ffee00;
+    width: 100%
+    height: 66%
 }
 
 h1{
